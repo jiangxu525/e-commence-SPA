@@ -1,0 +1,24 @@
+import { NgModule } from '@angular/core';
+import { HomeRoutingModule } from './home-routing.module';
+import { SharedModule } from '../shared';
+import {  HomeContainerComponent, HomeDetailComponent } from './components';
+import { HomeService,  token } from './services';
+
+
+@NgModule({
+  declarations: [
+    HomeContainerComponent, 
+    HomeDetailComponent
+    
+    ],
+  providers: [
+    HomeService,
+    {provide:token,
+    useValue:'http://local.dev'}
+  ],
+  imports: [
+    SharedModule,
+    HomeRoutingModule
+  ],
+})
+export class HomeModule { }

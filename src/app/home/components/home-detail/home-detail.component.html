@@ -1,0 +1,20 @@
+<div *ngIf="selectedTabLink==='hot' else other">
+    <app-image-slider
+    [sliders]="imgSliders"
+    sliderHeight="200px"
+    #imageSlider></app-image-slider>
+    
+    <app-horizontal-grid> 
+        <div appGridItem *ngFor="let item of channels">
+            <div>
+                <img [src]="item.icon" alt="" [appGridItemImage]="'4rem'" [fitMode]="'cover'">
+                <span [appGridItemTitle]="'0.6rem'">{{item.title}}</span>
+            </div>
+        </div>
+    </app-horizontal-grid>
+</div>
+
+<ng-template #other>
+    other works!
+</ng-template>
+<router-outlet></router-outlet>
