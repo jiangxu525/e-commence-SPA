@@ -1,4 +1,4 @@
-<div *ngIf="selectedTabLink==='hot' else other">
+<div *ngIf="selectedTabLink==='hot'">
     <app-image-slider
     [sliders]="imgSliders"
     sliderHeight="200px"
@@ -14,7 +14,10 @@
     </app-horizontal-grid>
 </div>
 
-<ng-template #other>
-    other works!
-</ng-template>
+<div class="ad-container"><img [src]="adImg" alt="" class="ad-image"></div>
 <router-outlet></router-outlet>
+<app-vertical-grid [itemWidth]="'20rem'" [itemHeight]="'2rem'">
+<app-product-card *ngFor="let product of products" [product]="product">
+<div>{{product.title}}</div>
+</app-product-card>
+</app-vertical-grid>

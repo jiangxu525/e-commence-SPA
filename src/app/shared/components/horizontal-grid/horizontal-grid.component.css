@@ -26,3 +26,6 @@
 .container::-webkit-scrollbar {
   display: none !important;
 }
+:host{
+  text-align: center;
+}

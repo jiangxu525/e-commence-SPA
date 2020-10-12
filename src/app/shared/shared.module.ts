@@ -5,7 +5,7 @@ import { HorizontalGridComponent } from './components/horizontal-grid';
 import { ScrollableTabComponent } from './components/scrollable-tab';
 import { ImageSliderComponent } from './components/image-slider';
 import {GridItemDirective, GridItemImageDirective, GridItemTitleDirective} from './directives'
-import { CountDownComponent, FooterComponent } from './components';
+import { CountDownComponent, FooterComponent, ProductCardComponent, VerticalGridComponent } from './components';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,9 @@ import { CountDownComponent, FooterComponent } from './components';
     GridItemImageDirective,
     GridItemTitleDirective,
     CountDownComponent,
-    FooterComponent
+    FooterComponent,
+    VerticalGridComponent,
+    ProductCardComponent
   ],
   imports: [
     CommonModule,
@@ -33,7 +35,9 @@ import { CountDownComponent, FooterComponent } from './components';
     GridItemImageDirective,
     GridItemTitleDirective,
     CountDownComponent,
-    FooterComponent
+    FooterComponent,
+    VerticalGridComponent,
+    ProductCardComponent
   ]
 })
 
