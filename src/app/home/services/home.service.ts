@@ -175,17 +175,17 @@ export class HomeService {
       buyerAvatars:['../../../assets/avatars/avatar001.png','../../../assets/avatars/avatar002.png']
     },
     {
-      id:1,
+      id:2,
       imageUrl:"../../../assets/imgs/2020-10-12_115556.png",
       title:"Nike Lorem Lorem Lorem Lorem Lorem Lorem Lorem",
       tags:['new','hot'],
       price:666,
       priceDesc:"hot buy",
-      buyerAvatars:['../../../assets/avatars/avatar001.png','../../../assets/avatars/avatar002.png']
+      buyerAvatars:['../../../assets/avatars/avatar001.png']
     },
 
     {
-      id:1,
+      id:3,
       imageUrl:"../../../assets/imgs/2020-10-12_115636.png",
       title:"Nike Lorem Lorem Lorem Lorem Lorem Lorem Lorem",
       tags:['new','hot'],
@@ -194,7 +194,7 @@ export class HomeService {
       buyerAvatars:['../../../assets/avatars/avatar001.png','../../../assets/avatars/avatar002.png']
     },
     {
-      id:1,
+      id:4,
       imageUrl:"../../../assets/imgs/2020-10-12_115726.png",
       title:"Nike Lorem Lorem Lorem Lorem Lorem Lorem Lorem",
       tags:['new','hot'],

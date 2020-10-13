@@ -15,9 +15,7 @@
 </div>
 
 <div class="ad-container"><img [src]="adImg" alt="" class="ad-image"></div>
-<router-outlet></router-outlet>
 <app-vertical-grid [itemWidth]="'20rem'" [itemHeight]="'2rem'">
-<app-product-card *ngFor="let product of products" [product]="product">
-<div>{{product.title}}</div>
+<app-product-card *ngFor="let product of products" [product]="product" [routerLink]="['/products',product.id]">
 </app-product-card>
 </app-vertical-grid>

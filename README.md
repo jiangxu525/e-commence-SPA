@@ -25,6 +25,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Screenshots
 
 ![Image text](./src/assets/imgs/screenshot.png)
+![Image text](./src/assets/imgs/screenshot2.png)
+
 
 ## Further help
 

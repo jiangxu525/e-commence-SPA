@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HorizontalGridComponent } from './components/horizontal-grid';
 import { ScrollableTabComponent } from './components/scrollable-tab';
 import { ImageSliderComponent } from './components/image-slider';
-import {GridItemDirective, GridItemImageDirective, GridItemTitleDirective} from './directives'
+import {AvatarDirective, GridItemDirective, GridItemImageDirective, GridItemTitleDirective, TagDirective} from './directives'
 import { CountDownComponent, FooterComponent, ProductCardComponent, VerticalGridComponent } from './components';
 
 @NgModule({
@@ -18,7 +18,9 @@ import { CountDownComponent, FooterComponent, ProductCardComponent, VerticalGrid
     CountDownComponent,
     FooterComponent,
     VerticalGridComponent,
-    ProductCardComponent
+    ProductCardComponent,
+    TagDirective,
+    AvatarDirective
   ],
   imports: [
     CommonModule,
@@ -37,7 +39,9 @@ import { CountDownComponent, FooterComponent, ProductCardComponent, VerticalGrid
     CountDownComponent,
     FooterComponent,
     VerticalGridComponent,
-    ProductCardComponent
+    ProductCardComponent,
+    TagDirective,
+    AvatarDirective
   ]
 })
 
